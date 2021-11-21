@@ -1,0 +1,31 @@
+html,
+body{
+  height: 100%;
+}
+
+body{
+  font-size: 00px;
+  line-height: 00px;
+  letter-spacing: 0.00em;
+  color: $default;
+  @extend %xxx;
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: normal;
+  background: #000;
+}
+
+.container{
+  max-width: 000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title{
+  @extend %xxx-000;
+  font-size: 00px;
+  line-height: 00px;
+  color: $title;
+  margin-bottom: 00px;
+}
